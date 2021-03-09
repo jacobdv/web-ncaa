@@ -16,7 +16,6 @@ body {
 }
 
 .navbar h1 {
-    float:left;
     background-color: gray;
     margin: 0;
     font-size: 15pt;
