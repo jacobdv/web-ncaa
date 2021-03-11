@@ -5,3 +5,8 @@
 nav {
     margin-bottom: 20px;
 }
+
+.in-text-link {
+    text-decoration: none;
+    color: black;
+}
