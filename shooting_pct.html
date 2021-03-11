@@ -48,27 +48,54 @@
     <div class='row'>
       <div class='col-12'>
         <h3>Shooting Percentages</h3>
+        <p>The ability to put the ball in the basket is, understandably, the most important statistic in basketball. No matter 
+          what else a team does in a game, the most points wins. This leads to many measures of shooting percentage to describe 
+          a team's skill.
+        </p>
       </div>
     </div>
 
     <div class='row'>
       <div class='col-sm-12 col-md-8 col-lg-6'>
         <img src='analysis/results/FT%_vs_W%.png'>
+        <p><strong>Free Throw Percentage</strong> measures only free throws, the only undefended play in basketball. Typically, 
+        you would expect that the teams that best take advantage of these 'free' points would win the highest percentage of their 
+        games, but that isn't always the case. Additionally, it is valuable to pair this measure with free throw attempt rate (on 
+        the 'Pace' page) to more accurately picture a team's free throw situation.</p>
       </div>
       <div class='col-sm-12 col-md-8 col-lg-6'>
         <img src='analysis/results/FG%_vs_W%.png'>
+        <p><strong>Field Goal Percentage</strong> describes the success rate at which a team makes all shots except free throws. This 
+        is a statistic that equally counts two point attempts and three point attempts. This is a good, though basic, statistic for 
+        describing a team's ability to shoot the basketball, score points, and therefore win games.</p>
       </div>
       <div class='col-sm-12 col-md-8 col-lg-6'>
         <img src='analysis/results/2P%_vs_W%.png'>
+        <p><strong>Two Point Percentage</strong> is nearly identical to field goal percentage but only accounts for shots taken inside 
+        the three point arc. This percentage should be higher than both field goal percentage and three point percentage as it is describing 
+        the 'easier' shots.</p>
       </div>
       <div class='col-sm-12 col-md-8 col-lg-6'>
         <img src='analysis/results/3P%_vs_W%.png'>
+        <p><strong>Three Point Percentage</strong>, much like two point percentage, is a subset of field goal percentage. In this case, 
+        it measures all shots taken from beyond the three point line. Note that this would even include full court desperation shots. 
+        Converse to two point percentage, this is typically lower than both field goal percentage and two point percentage because of the shot 
+        distance and difficulty.</p>
       </div>
       <div class='col-sm-12 col-md-8 col-lg-6'>
         <img src='analysis/results/eFG%_vs_W%.png'>
+        <p><strong>Effective Field Goal Percentage</strong> is our first 'advanced' shooting statistic. Much like field goal percentage, 
+        this statistic accounts for all non free throws, but does not weight two pointers and three pointers equally. It is calculated by 
+        the formula: <em>eFG% = (FGM + 0.5 * 3PM) / FGA</em>. Theoretically, this equation gives an offense credit for the increased 
+        value of the three point shot in their field goal percentage. Effective field goal percentage will never be lower than field goal 
+        percentage.</p>
       </div>
       <div class='col-sm-12 col-md-8 col-lg-6'>
         <img src='analysis/results/TS%_vs_W%.png'>
+        <p><strong>True Shooting Percentage</strong> is perhaps the best measure of scoring efficacy, represented by the equation: 
+        <em>TS% = PTS / (2 * (FGA + 0.44 * FTA))</em>. This accounts for all scoring oppurtunities in an attempt to describe scoring 
+        efficiency. True shooting percentage should be a similar, though slightly higher, number than eFG% because of the inclusion of 
+        free throws. It also wins the prize for the highest correlation with win percentage of any single statistic.</p>
       </div>
     </div>
   </div>
