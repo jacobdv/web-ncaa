@@ -14,3 +14,36 @@ nav {
 em {
     font-style: italic;
 }
+
+.graph-caption {
+    padding: 0px 10px;
+    text-align: justify;
+}
+
+.row {
+    text-align: center;
+}
+
+img {
+    width:100%;
+}
+
+.top-link {
+    color: black;
+    text-align: center;
+    padding: 2px 4px;
+    border-radius: 8%;
+}
+
+.top-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.col-12 {
+    text-align: center;
+}
+
+.main-page-body {
+    text-align: left;
+}
