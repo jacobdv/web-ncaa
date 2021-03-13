@@ -47,3 +47,7 @@ img {
 .main-page-body {
     text-align: left;
 }
+
+.comparison-headers {
+  min-height: 60px;
+}
