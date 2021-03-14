@@ -11,6 +11,11 @@ nav {
     color: black;
 }
 
+.in-text-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+
 em {
     font-style: italic;
 }
@@ -50,4 +55,17 @@ img {
 
 .comparison-headers {
     min-height: 60px;
+}
+
+.bonus-analysis {
+    padding-top: 60px;
+    padding-left: 10px;
+}
+
+#main-page-image {
+    max-width: 700px;
+}
+
+#image {
+    margin-left: 40%;
 }
